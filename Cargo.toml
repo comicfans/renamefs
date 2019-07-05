@@ -1,0 +1,12 @@
+[package]
+authors = ["comicfans44 <comicfans44@gmail.com>"]
+name = "renamefs"
+version = "0.1.0"
+[dependencies]
+parity-daemonize = "*"
+
+libc = "0.2"
+log = "0.4"
+regex = "*"
+time = "0.1"
+fuse_mt = "*"
